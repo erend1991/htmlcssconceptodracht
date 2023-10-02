@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+/*Paars #5722CD;*/
+/*Blauw #4845E4;*/
+/*Roze #ED4385;*/
+/*Zwart #0C0C0C (voor standaard tekst);*/
+/*Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:*/
+/*                                                                                 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)*/
+/*Grijs #7A7A7A (voor de service-tegel tekst);*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, 'Times New Roman', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriwheater, 'Times New Roman', Serif;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+.outer-container-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.inner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px;
+
+}
+
+.nav-content {
+    display: flex;
+    /*flex-direction: row;*/
+    /*align-items: flex-end;*/
+    flex-wrap: nowrap;
+}
+
+.btn-class {
+    background-color: #ED4385;
+    color: white;
+    padding: 25px 70px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    margin: 30px;
+}
+
+header {
+    color: white;
+    background-color: #5722CD;
+}
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
